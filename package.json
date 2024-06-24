@@ -1,0 +1,21 @@
+{
+  "name": "project-mfe-jest-playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+    "workspaces": {
+    "packages": [
+      "home",
+      "contact"
+    ]
+  },
+  "scripts": {
+"start": "npm run start:home & npm run start:contact",
+    "start:home": "cd ./home-app && npm start",
+    "start:contact": "cd ./contact-app && npm start"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

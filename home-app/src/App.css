@@ -1,0 +1,40 @@
+.App-header {
+  background-color: #1899d5;
+  width: 100%;
+  padding: 24px;
+}
+
+.App-header h1 {
+  margin: 0;
+  color: #fff;
+}
+
+.App-content {
+  padding: 12px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.App-img {
+  width: 100%;
+}
+
+.content-title {
+  text-align: center;
+}
+
+.main-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 48px;
+}
+
+
+.main-text {
+  max-width: 900px;
+  text-align: justify;
+}

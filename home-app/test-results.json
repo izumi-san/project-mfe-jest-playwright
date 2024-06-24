@@ -1,0 +1,392 @@
+{
+  "config": {
+    "configFile": "/home/cassino/project-training-mfe-testing/bacancytechnology/home-app/playwright.config.js",
+    "rootDir": "/home/cassino/project-training-mfe-testing/bacancytechnology/home-app/src/tests/e2e",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/home/cassino/project-training-mfe-testing/bacancytechnology/home-app/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/home/cassino/project-training-mfe-testing/bacancytechnology/home-app/src/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.e2e.js"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/cassino/project-training-mfe-testing/bacancytechnology/home-app/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {},
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/home/cassino/project-training-mfe-testing/bacancytechnology/home-app/src/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.e2e.js"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.44.1",
+    "workers": 6,
+    "webServer": null,
+    "@playwright/test": {
+      "packageJSON": "/home/cassino/project-training-mfe-testing/bacancytechnology/home-app/node_modules/@playwright/experimental-ct-react/package.json",
+      "plugins": [
+        null
+      ],
+      "babelPlugins": [
+        [
+          "/home/cassino/project-training-mfe-testing/bacancytechnology/home-app/node_modules/@playwright/experimental-ct-core/lib/tsxTransform.js"
+        ]
+      ],
+      "cli": {}
+    },
+    "@playwright/experimental-ct-core": {
+      "registerSourceFile": "/home/cassino/project-training-mfe-testing/bacancytechnology/home-app/node_modules/@playwright/experimental-ct-react/registerSource.mjs"
+    }
+  },
+  "suites": [
+    {
+      "title": "CalculatorBmc.e2e.js",
+      "file": "CalculatorBmc.e2e.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "BmcSection tests",
+          "file": "CalculatorBmc.e2e.js",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should successfully calculate imc",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 1019,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-06-24T03:46:49.108Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dc4b3853e4e68f834eda-f19039541be3b4f75e93",
+              "file": "CalculatorBmc.e2e.js",
+              "line": 12,
+              "column": 9
+            },
+            {
+              "title": "should reset form",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 1080,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-06-24T03:46:50.294Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dc4b3853e4e68f834eda-f099aa0198017891556a",
+              "file": "CalculatorBmc.e2e.js",
+              "line": 30,
+              "column": 9
+            },
+            {
+              "title": "should show erro message",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 700,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-06-24T03:46:51.380Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dc4b3853e4e68f834eda-ee6710faf0fd5286265f",
+              "file": "CalculatorBmc.e2e.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "should successfully calculate imc",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 3138,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-06-24T03:46:49.108Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dc4b3853e4e68f834eda-f25f9418172473a0f2f0",
+              "file": "CalculatorBmc.e2e.js",
+              "line": 12,
+              "column": 9
+            },
+            {
+              "title": "should reset form",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 1425,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-06-24T03:46:52.662Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dc4b3853e4e68f834eda-fd5f2b4866045810dc9d",
+              "file": "CalculatorBmc.e2e.js",
+              "line": 30,
+              "column": 9
+            },
+            {
+              "title": "should show erro message",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 1215,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-06-24T03:46:54.094Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dc4b3853e4e68f834eda-1621bd4228b1fcd113bf",
+              "file": "CalculatorBmc.e2e.js",
+              "line": 54,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "NavigateNextPage.e2e.js",
+      "file": "NavigateNextPage.e2e.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "IconButton tests",
+          "file": "NavigateNextPage.e2e.js",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should go to other mfe",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 1973,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-06-24T03:46:49.099Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aa0ce305dff91aaff848-b26a19a581811bb10bea",
+              "file": "NavigateNextPage.e2e.js",
+              "line": 4,
+              "column": 9
+            },
+            {
+              "title": "should go to other mfe",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 4219,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-06-24T03:46:49.088Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "aa0ce305dff91aaff848-ee6ad613a3fb02ade3d7",
+              "file": "NavigateNextPage.e2e.js",
+              "line": 4,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-06-24T03:46:47.890Z",
+    "duration": 8072.508000000001,
+    "expected": 8,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
